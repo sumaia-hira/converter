@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <!--------inch to feet-------------->
+        
+        <h1>Inch to Feet</h1>
+        <input type="number" placeholder="put inch value" id="conve">
+        <button onclick="convert(conve.value)" oninput="convert(conve.value)">
+            result</button>
+
+    <h2>Feet:<span id="output" ></span></h2>
+
+    </div>
+
+    <!-------------factorial count-------------->
+    <div class="container">
+        <h1>Factorial</h1>
+        <input type="number" placeholder="put number" id="fact">
+        <button onclick="factorial(fact.value)" oninput="factorial(fact.value)">
+            result</button>
+
+    <h2>Result:<span id="factorialoutput" ></span></h2>
+
+
+    </div>
+
+
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
